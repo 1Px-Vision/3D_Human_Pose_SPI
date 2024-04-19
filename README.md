@@ -7,6 +7,8 @@ Extracting 3D human pose and body shape details from a single monocular image is
 Video
 https://opticapublishing.figshare.com/articles/media/3D_Pose_OSA_V1_mp4/24783918
 
+Please check out the following references for more details:
+
 Carlos Osorio Quero, Daniel Durini, Jose Rangel-Magdaleno, Jose Martinez-Carranza, and Ruben Ramos-Garcia, "Enhancing 3D human pose estimation with NIR single-pixel imaging and time-of-flight technology: 
 a deep learning approach," J. Opt. Soc. Am. A 41, 414-423 (2024)
 
