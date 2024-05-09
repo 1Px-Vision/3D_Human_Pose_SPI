@@ -13,12 +13,18 @@ Carlos Osorio Quero, Daniel Durini, Jose Rangel-Magdaleno, Jose Martinez-Carranz
 a deep learning approach," J. Opt. Soc. Am. A 41, 414-423 (2024)
 
 
-Table 1. Various methods have been proposed and evaluated in the competition for estimating 3D human poses from monocular images. These include VIBE (Video Inference for Body pose and shape Estimation), DenseRaC (Dense Reconstruction of Articulated Characters), HoloPose, GCMR (Graph Convolutional Mesh Regression), HMR (Human Mesh Recovery), and UP (Unite the People). Additionally, the SMPLify algorithm has been considered alongside other methods we have proposed.
+Table 1. Various methods have been proposed and evaluated in the competition for estimating 3D human poses from monocular images. These include VIBE (Video Inference for Body pose and shape Estimation), DenseRaC (Dense Reconstruction of Articulated Characters), HoloPose, GCMR (Graph Convolutional Mesh Regression), HMR (Human Mesh Recovery), and UP (Unite the People). Also, the SMPLify algorithm has been considered alongside other methods we have proposed.
 
 | Method  | MPJPE (mm) |Complexity  |Performance|
 | ------------- | ------------- |------------- |------------- |
 | VIBE  |65.6 |Using a combination of DL and optimization techniques |Offers higher accuracy in dynamic scenarios|
-
+|DenseRaC |76.8 |Significantly complex |Provides detailed and accurate 3D reconstructions|
+|HoloPose |60.2 |Aims at high-fidelity 3D human pose estimation |High-quality results may not be ideal for real-time|
+|GCMR |71.9 |Employs graph convolutional networks for mesh regression |Performance can be computationally intensive|
+|HMR |87.9 |Balances between complexity and efficiency |Good trade-off between accuracy and speed|
+|UP |80.7 |Complex depending on the implementation |Offering reliable performance|
+|SMPLify |82.3 |Optimization-based approach to fit the SMPL body model |Offers reasonable accuracy in controlled environments|
+|Ours |42 |Implementation a strategy of VIT and VIBE methods |3D Reconstructions from Low-Resolution Images|
 
 ## Reference
 @article{OsorioQuero:24,
