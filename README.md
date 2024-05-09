@@ -12,6 +12,15 @@ Please check out the following references for more details:
 Carlos Osorio Quero, Daniel Durini, Jose Rangel-Magdaleno, Jose Martinez-Carranza, and Ruben Ramos-Garcia, "Enhancing 3D human pose estimation with NIR single-pixel imaging and time-of-flight technology: 
 a deep learning approach," J. Opt. Soc. Am. A 41, 414-423 (2024)
 
+
+Table 1. Various methods have been proposed and evaluated in the competition for estimating 3D human poses from monocular images. These include VIBE (Video Inference for Body pose and shape Estimation), DenseRaC (Dense Reconstruction of Articulated Characters), HoloPose, GCMR (Graph Convolutional Mesh Regression), HMR (Human Mesh Recovery), and UP (Unite the People). Additionally, the SMPLify algorithm has been considered alongside other methods we have proposed.
+
+| Method  | MPJPE (mm) |Complexity  |Performance|
+| ------------- | ------------- |------------- |------------- |
+| VIBE  |65.6 |Using a combination of DL and optimization techniques |Offers higher accuracy in dynamic scenarios|
+
+
+## Reference
 @article{OsorioQuero:24,
 author = {Carlos Osorio Quero and Daniel Durini and Jose Rangel-Magdaleno and Jose Martinez-Carranza and Ruben Ramos-Garcia},
 journal = {J. Opt. Soc. Am. A},
