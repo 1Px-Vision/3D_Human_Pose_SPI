@@ -41,3 +41,9 @@ year = {2024},
 url = {https://opg.optica.org/josaa/abstract.cfm?URI=josaa-41-3-414},
 doi = {10.1364/JOSAA.499933},
 }
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
+
+## Contact
+For any questions or inquiries, please contact caoq@1px-vision.com
