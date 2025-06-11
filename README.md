@@ -42,6 +42,8 @@ url = {https://opg.optica.org/josaa/abstract.cfm?URI=josaa-41-3-414},
 doi = {10.1364/JOSAA.499933},
 }
 
+Osorio Quero, C.; Durini, D.; Martinez-Carranza, J. ViT-Based Classification and Self-Supervised 3D Human Mesh Generation from NIR Single-Pixel Imaging. Appl. Sci. 2025, 15, 6138. https://doi.org/10.3390/app15116138
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
 
